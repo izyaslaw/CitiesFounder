@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\anisan\\source\\repos\\_CitiesFounder\\_CitiesFounder\\_CitiesFounder.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\anisan\\source\\repos\\_CitiesFounder\\_CitiesFounder\\_CitiesFounder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anisan\\source\\repos\\_CitiesFounder\\_CitiesFounder\\_CitiesFounder.csproj",
+        "projectName": "_CitiesFounder",
+        "projectPath": "C:\\Users\\anisan\\source\\repos\\_CitiesFounder\\_CitiesFounder\\_CitiesFounder.csproj",
+        "packagesPath": "C:\\Users\\anisan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anisan\\source\\repos\\_CitiesFounder\\_CitiesFounder\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anisan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.95.3, )"
+            },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[15.0.5, )"
+            },
+            "Dadata": {
+              "target": "Package",
+              "version": "[20.9.0, )"
+            },
+            "GoogleMapsApi": {
+              "target": "Package",
+              "version": "[0.80.0, )"
+            },
+            "System.Data.Odbc": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
