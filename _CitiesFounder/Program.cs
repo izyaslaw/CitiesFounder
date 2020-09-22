@@ -43,8 +43,6 @@ namespace _CitiesFinder
                 {
                     List<CityFromDB> citiesInRange = GetCitiesInRange(cityFromDB, citiesFromDB, RANGE);
                     List<CityAndRegion> citiesAndRegions = GetCitiesAndRegions(citiesInRange, regionsFromDB);
-                    Region region = regionsFromDB
-                        .FirstOrDefault((region) => region.Code.Split(".")[1] == cityFromDB.Admin1code);
                     citiesAndRegionsInRange.Add(cityFromXL, citiesAndRegions);
                 }
             }
